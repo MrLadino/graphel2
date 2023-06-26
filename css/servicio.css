@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+body{
+    font-family: 'Roboto:wght@300&display=swap', sans-serif;
+    background-color: #f4f4f4;
+}
+.menu{
+    overflow: hidden;
+    background-color: #24282B;
+    height: 100px;
+}
+.titulo{
+    float: left;
+    margin-left: 150px;
+    margin-top: 27px;
+    color: white;
+    font-size: 20px;
+}
+.titulo span{
+    color: #1293D4;
+}
+nav ul{
+    float: right;
+    margin-right: 200px;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-top: 36px;
+    margin-left: 50px;
+    font-size: 20px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li a :hover{
+    color: #1293D4;
+}
+.separador{
+    background: #1293D4;
+    height: 9px;
+}
+.suscribete{
+    overflow: hidden;
+    background-color: #24282B;
+    height: 120px;
+}
+.suscribete p{
+    color: white;
+    font-size: 30px;
+    float: left;
+    margin-left: 180px;
+    margin-top: 45px;
+}
+.suscribete form{
+    float: right;
+    margin-right: 200px;
+    margin-top: 45px;
+}
+.suscribete input{
+    width: 340px;
+    height: 44px;
+}
+.suscribete button{
+    background-color: #F24822;
+    color: white;
+    width: 150px;
+    height: 46px;
+    font-size: 18px;
+}
+.email::placeholder{
+    font-size: 17px;
+}
+section{
+    overflow: hidden;
+}
+.float3{
+    float: left;
+    margin-left: 200px;
+    width: 60%;
+    margin-top: 40px;
+}
+.float3 h2{
+    margin-bottom: 40px;
+    font-size: 25px;
+}
+.diseñoweb{
+    background-color: #e6e6e6;
+    width: 80%;
+    height: 270px;
+}
+.diseñoweb h3{
+    margin-top: 50px;
+    font-size: 28px;
+    margin-left: 20px;
+    padding: 30px;
+}
+.diseñoweb p{
+    font-size: 25px;
+    width: 70%;
+    margin-top: 5px;
+    margin-left: 50px;
+    margin-bottom: 40px;
+}
+.desarrollo{
+    background-color: #e6e6e6;
+    width: 80%;
+    height: 270px;
+}
+.desarrollo h3{
+    margin-top: 10px;
+    font-size: 28px;
+    margin-left: 20px;
+    padding: 30px;
+}
+.desarrollo p{
+    font-size: 25px;
+    width: 70%;
+    margin-top: 5px;
+    margin-left: 50px;
+    margin-bottom: 40px;
+}
+.hosting{
+    background-color: #e6e6e6;
+    width: 80%;
+    height: 270px;
+    margin-bottom: 40px;
+}
+.hosting h3{
+    margin-top: 10px;
+    font-size: 28px;
+    margin-left: 20px;
+    padding: 30px;
+}
+.hosting p{
+    font-size: 25px;
+    width: 70%;
+    margin-top: 5px;
+    margin-left: 50px;
+    margin-bottom: 40px;
+}
+.texto3{
+    float: right;
+    margin-right: 200px;
+    width: 30%;
+    margin-top: -900px;
+    background-color: #35424a;
+    color: #ffffe2;
+    padding: auto;
+}
+.texto3 h3{
+    font-size: 30px;
+    margin: 40px;
+    top: 50px;
+}
+.texto3 p{
+    font-size: 27px;
+    margin-top: 40px;
+    margin: 50px;
+}
+footer{
+    height: 110px;
+    background-color: #1293D4;
+    font-size: 23px;
+    color: white;
+    text-align: center;
+}
+footer p{
+    padding-top: 45px;
+}
+.clear{
+    clear: both;
+}

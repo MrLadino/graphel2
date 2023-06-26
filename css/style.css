@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+body{
+    font-family: 'Roboto:wght@300&display=swap', sans-serif;
+    background-color: #f4f4f4;
+}
+.menu{
+    overflow: hidden;
+    background-color: #24282B;
+    height: 100px;
+}
+.titulo{
+    float: left;
+    margin-left: 150px;
+    margin-top: 27px;
+    color: white;
+    font-size: 20px;
+}
+.titulo span{
+    color: #1293D4;
+}
+nav ul{
+    float: right;
+    margin-right: 200px;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-top: 36px;
+    margin-left: 50px;
+    font-size: 20px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li a :hover{
+    color: #1293D4;
+}
+.separador{
+    background: #1293D4;
+    height: 9px;
+}
+.suscribete{
+    overflow: hidden;
+    background-color: #24282B;
+    height: 120px;
+}
+.suscribete p{
+    color: white;
+    font-size: 30px;
+    float: left;
+    margin-left: 180px;
+    margin-top: 45px;
+}
+.suscribete form{
+    float: right;
+    margin-right: 200px;
+    margin-top: 45px;
+}
+.suscribete input{
+    width: 340px;
+    height: 44px;
+}
+.suscribete button{
+    background-color: #F24822;
+    color: white;
+    width: 150px;
+    height: 46px;
+    font-size: 18px;
+}
+.email::placeholder{
+    font-size: 17px;
+}
+section{
+    overflow: hidden;
+}
+.tecnologias{
+    background-image: url(../images/cabecera.jpg);
+    width: 100%;
+    height: 850px;
+    background-position: center;
+    background-size: cover;
+}
+.tecnologias h2{
+    float: left;
+    margin-left: 22%;
+    color: white;
+    font-size: 100px;
+    margin-top: 250px;
+}
+.tecnologias p{
+    float: left;
+    margin-left: 20%;
+    margin-top: 20px;
+    color: white;
+    font-size: 35px;
+    width: 70%;
+}
+.tecnologias p span{
+    float: right;
+    margin-right: 50%;
+}
+.container{
+    overflow: hidden;
+}
+.html{
+    float: left;
+    margin-top: 140px;
+    margin-left: 350px;
+    
+}
+.html h3{
+    font-size: 30px;
+    margin-top: 20px;
+    position: relative;
+    left: 50px;
+}
+.html p{
+    font-size: 25px;
+    width: 50%;
+    margin-top: 25px;
+    line-height: 30px;
+    text-align: center;
+    margin-left: -130px;
+}
+.css{
+    float: right;
+    margin-right: 470px;
+    margin-bottom: 100px;
+    margin-top: -370px;
+}
+.css h3{
+    font-size: 30px;
+    margin-top: 20px;
+    position: relative;
+    left: 60px;
+    margin-bottom: 20px;
+}
+.css p{
+    font-size: 25px;
+    width: 50%;
+    line-height: 30px;
+    text-align: center;
+    margin-left: -130px;
+}
+.diseño{
+    float: right;
+    margin-top: -370px;
+    margin-right: -1700px;
+    
+}
+.diseño h3{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.diseño p{
+    font-size: 25px;
+    width: 50%;
+    line-height: 30px;
+    text-align: center;
+    margin-left: -130px;
+}
+footer{
+    height: 110px;
+    background-color: #1293D4;
+    font-size: 23px;
+    color: white;
+    text-align: center;
+}
+footer p{
+    padding-top: 45px;
+}
+.clear{
+    clear: both;
+}
